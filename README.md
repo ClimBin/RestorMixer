@@ -1,7 +1,58 @@
-# RestorMixer
+
+# RestorMixer: An Efficient and Mixed Heterogeneous Model for Image Restoration 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.10967-<COLOR>.svg)](https://arxiv.org/abs/2504.10967)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ClimBin/RestorMixer)
 
-The official implementation of "An Efficient and Mixed Heterogeneous Model for Image Restoration" 
+RestorMixer is a novel general-purpose image restoration (IR) model that combines the strengths of multiple architectural paradigms—**Convolutional Neural Networks (CNNs)**, **Transformers**, and **Mamba**—to achieve state-of-the-art performance with high inference efficiency. This project is the official implementation of the paper, *“An Efficient and Mixed Heterogeneous Model for Image Restoration”*.
 
-This paper is under review processing... We will release all codes and results after finishing the review.
+## 🌟 Why RestorMixer?
+
+Image restoration is a critical task for recovering high-quality images from degraded ones, but traditional methods are often task-specific and costly to develop. While recent general-purpose models have shown promise, they often rely on a single or two combined architectures, which limits their ability to handle diverse degradation types effectively. RestorMixer addresses this by strategically fusing these architectures.
+
+![The pipeline of RestorMixer](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "GitHub标志")
+
+-----
+
+## ✨ Key Features
+
+  - **Heterogeneous Architecture Fusion**: RestorMixer is the first model to effectively integrate CNN, Mamba, and Transformer architectures into a single, cohesive framework for image restoration.
+  - **Multi-Stage Encoder-Decoder**: A hierarchical design processes features at different resolutions, from high-resolution local details to low-resolution global contexts.
+  - **Superior Performance**: Achieves leading performance on multiple IR tasks, including deraining, desnowing, and super-resolution, for both single and mixed degradations.
+  - **High Inference Efficiency**: The model is designed for speed, ensuring high performance without sacrificing computational efficiency.
+
+-----
+
+## 🚀 Getting Started
+
+To get started with RestorMixer, follow the instructions below.
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/ClimBin/RestorMixer.git
+    cd RestorMixer
+    ```
+
+-----
+
+## 📄 Paper & Citation
+
+If you use this code in your research, please cite our paper:
+
+```bibtex
+@article{gu2025efficient,
+  title={An Efficient and Mixed Heterogeneous Model for Image Restoration},
+  author={Gu, Yubin and Meng, Yuan and Zheng, Kaihang and Sun, Xiaoshuai and Ji, Jiayi and Ruan, Weijian and Cao, Liujuan and Ji, Rongrong},
+  journal={arXiv preprint arXiv:2504.10967},
+  year={2025}
+}
+```
+
+-----
+
+## 🙏 Acknowledgements
+
+We would like to thank all the researchers whose work has inspired this project and the open-source community for providing invaluable tools and resources. 
+
+-----
