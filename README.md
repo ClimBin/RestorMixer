@@ -20,7 +20,7 @@ Image restoration is a critical task for recovering high-quality images from deg
   - **Multi-Stage Encoder-Decoder**: A hierarchical design processes features at different resolutions, from high-resolution local details to low-resolution global contexts.
   - **Superior Performance**: Achieves leading performance on multiple IR tasks, including deraining, desnowing, and super-resolution, for both single and mixed degradations.
   - **High Inference Efficiency**: The model is designed for speed, ensuring high performance without sacrificing computational efficiency.
-
+  - **Versatility**: This framework is also applicable to other vision tasks (using an encoder-decoder structure).
 -----
 
 ## 🚀 Getting Started
@@ -71,7 +71,7 @@ Here are some visual comparisons demonstrating RestorMixer's effectiveness:
   <img src="https://github.com/ClimBin/RestorMixer/blob/main/assets/combined_vis.png" alt="Combined_vis" width="1000"/>
   
 <!--   <p>Figure 1: Comparison on a deraining task.</p> -->
-</div
+</div>
 
   
 </details>
@@ -97,5 +97,6 @@ If you use this code in your research, please cite our paper:
 ## 🙏 Acknowledgements
 
 We would like to thank all the researchers whose work has inspired this project and the open-source community for providing invaluable tools and resources. 
+Thanks to [VMamba](https://github.com/MzeroMiko/VMamba), [Restormer](https://github.com/swz30/Restormer), and all other works inspiring us.
 
 -----
