@@ -37,6 +37,18 @@ To get started with RestorMixer, follow the instructions below.
 
 -----
 
+## 📊 Results
+Click to expand and view the performance of RestorMixer across various image restoration tasks.
+
+<details>
+<summary>View Example Results</summary>
+<p>
+Here are some visual comparisons demonstrating RestorMixer's effectiveness:
+<br>
+</p>
+  ![Deraining_res](https://github.com/ClimBin/RestorMixer/blob/main/assets/rain_res.png "Deraining")
+</details>
+
 ## 📄 Paper & Citation
 
 If you use this code in your research, please cite our paper:
