@@ -46,8 +46,38 @@ Click to expand and view the performance of RestorMixer across various image res
 Here are some visual comparisons demonstrating RestorMixer's effectiveness:
 <br>
 </p>
-  ![Deraining_res](https://github.com/ClimBin/RestorMixer/blob/main/assets/rain_res.png "Deraining")
+<div align="center">
+  <img src="https://github.com/ClimBin/RestorMixer/blob/main/assets/rain_res.png" alt="Deraining" width="1000"/>
+  
+<!--   <p>Figure 1: Comparison on a deraining task.</p> -->
+</div>
+<div align="center">
+  <img src="https://github.com/ClimBin/RestorMixer/blob/main/assets/rain_vis.png" alt="Deraining_vis" width="1000"/>
+  
+<!--   <p>Figure 1: Comparison on a deraining task.</p> -->
+</div>
+<div align="center">
+  <img src="https://github.com/ClimBin/RestorMixer/blob/main/assets/gopro_res.png" alt="Deblurring" width="500"/>
+  
+<!--   <p>Figure 1: Comparison on a deraining task.</p> -->
+</div>
+<div align="center">
+  <img src="https://github.com/ClimBin/RestorMixer/blob/main/assets/gopro_vis.png" alt="Deblurring_vis" width="1000"/>
+  
+<!--   <p>Figure 1: Comparison on a deraining task.</p> -->
+</div>
+
+<div align="center">
+  <img src="https://github.com/ClimBin/RestorMixer/blob/main/assets/combined_vis.png" alt="Combined_vis" width="1000"/>
+  
+<!--   <p>Figure 1: Comparison on a deraining task.</p> -->
+</div
+
+  
 </details>
+
+
+-----
 
 ## 📄 Paper & Citation
 
