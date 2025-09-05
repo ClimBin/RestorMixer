@@ -9,7 +9,7 @@ RestorMixer is a novel general-purpose image restoration (IR) model that combine
 
 Image restoration is a critical task for recovering high-quality images from degraded ones, but traditional methods are often task-specific and costly to develop. While recent general-purpose models have shown promise, they often rely on a single or two combined architectures, which limits their ability to handle diverse degradation types effectively. RestorMixer addresses this by strategically fusing these architectures.
 
-![The pipeline of RestorMixer](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "GitHub标志")
+![RestorMixer](https://github.com/ClimBin/RestorMixer/blob/main/assets/pipeline.pdf "Pipeline")
 
 -----
 
